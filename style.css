@@ -1,181 +1,58 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgba(1, 2, 27, 0.959);
 }
-.beginning {
-    background-color: rgba(1, 2, 27, 0.959);
-    text-transform: uppercase;
-    color: rgb(255, 119, 7);
-    padding: 5px 3px;
+body {
+    background-color: rgb(1, 1, 15);
 }
-.myMe {
-    font-style: initial;
-    text-transform: uppercase;
-    margin-left: 3px;
-    margin-bottom: 5px;
-    animation-name: slideleft;
-    animation-duration: 2s;
+.one {
+    font-family: 'Gill Sans MT';
+    margin-top: 28px;
+    margin-left: 28px;
+    color: rgb(75, 247, 23);
 }
-@keyframes slideleft {
-    from{transform: translateY(-250%)};
+ul li a{
+    text-decoration: none;
+    margin-left: 88px;
+    font-family: 'Gill Sans MT';
+    color:rgb(75, 247, 23);
 }
-.aim {
-    font-style: inherit;
-    text-transform: normal;
-    animation-name: slideup;
-    animation-duration: 2s;
-    margin-left: 3px;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    color:rgb(255, 119, 7);
+a:hover {
+    color:rgb(21, 243, 243);
 }
-@keyframes slideup {
-    from{transform: translateY(100%)};
+ul li {
+    list-style-type: none;
+    display: inline-block;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 500px;
-    background-color: rgba(1, 2, 27, 0.959) ;
-    border-radius: 15px;
+.define, .cons {
+    display: inline-block;
+}
+.cons{
+    padding-left: 30%;
+}
+.content {
+    background-color: white;
+    height: 80px;
     margin-top: 30px;
-    margin-left: 20px;
-    animation-name: rotate;
-    animation-duration: 3s;
-    box-shadow: 10px 10px 10px black;
 }
-.inside {
-    box-sizing: border-box;
-    background: rgba(1, 2, 27, 0.959);
-    border-radius: 20px;
-}
-@keyframes rotate {
-    from{transform: rotateY(360deg)};
-}
-h {
-    background-color:  rgba(1, 2, 27, 0.959);
-    font-family: Georgia;
-    font-weight: 100;
-    color: rgb(255, 119, 7);
-    padding-left: 30px;
+.heading {
+    text-align: center;
+    font-weight: 20px;
+    font-family: 'Lucida Sans Unicode';
 }
 .describe {
-    background-color: rgba(1, 2, 27, 0.959);
-    color: rgb(255, 119, 7);
-    margin-top: 30px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-weight: 100;
+    text-align: center;
 }
-.about {
-    margin-left: 80px;
+.description {
+    color:rgb(75, 247, 23);
+    font-family: 'Gill Sans MT';
+    margin-top: 28px;
+    margin-left: 28px;
 }
-section {
-    display: inline-block;
-    margin-left: 70px;
+.container {
+    background-color: blueviolet
+    margin-top: 28px;
+    margin-left: 28px;
+    font-family: 'Gill Sans MT';
 }
-.another-one {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 500px;
-    background-color:  rgba(1, 2, 27, 0.959);
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-left: 20px;
-    animation-name: rotate;
-    animation-duration: 3s;
-    box-shadow: 10px 10px 10px black;
-}
-.continue {
-    box-sizing: border-box;
-    background:  rgba(1, 2, 27, 0.959);
-    border-radius: 20px;
-}
-.try-more {
-    background-color:  rgba(1, 2, 27, 0.959);
-    color: rgb(255, 119, 7);
-    margin-top: 30px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-weight: 100;
-}
-.last-one {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 500px;
-    background-color: rgba(1, 2, 27, 0.959);
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-left: 20px;
-    animation-name: rotate;
-    animation-duration: 3s;
-    box-shadow: 10px 10px 10px black; 
-}
-.more-content {
-    box-sizing: border-box;
-    background:  rgba(1, 2, 27, 0.959);
-    border-radius: 20px;
-}
-.should {
-    background-color: rgba(1, 2, 27, 0.959);
-    color: rgb(255, 119, 7) ;
-    margin-top: 30px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-weight: 100;
-}
-.career-goals {
-    margin-left: 80px;
-}
-.pictures {
-    margin-top: 30px;
-    margin-left: 3px;
-    margin-bottom: 5px;
-}
-.content-pictures {
-color:  rgb(255, 119, 7);
-}
-p {
-    color: rgb(255, 119, 7);
-    margin-top: 39px;
-    margin-bottom: 30px;
-}
-.img {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    opacity: 100%;
-}
-img:hover{
-    opacity: 88%;
-    animation-name: grow;
-    animation-duration: 2s;
-}
-@keyframes grow {
-    70%{transform: scale(1.6, 1.6)};
-}
-.whereabouts {
-    margin-top: 30px;
-    margin-left: 3px;
-    margin-bottom: 10px;
-    color: rgba(1, 2, 27, 0.959);
-}
-.username, .photo {
-    display: inline;
-}
-.username {
-    margin-top: 5px;
-    margin-right: 2px ;
-}
-.images {
-    justify-content: space-between;
-    margin-left: 10px;
-}
-.first-image, .second-image, .third-image {
-    margin-left: 70px;
-    margin-right: 70px;
-}
+.dining
