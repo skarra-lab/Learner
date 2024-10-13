@@ -1,39 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="one">
-        <h1 class="who">Hello I'm Sikhangele Nogcinisa</h1>
-        <p class="define">An upcoming software developer&#10004;</p>
-        <nav class="cons">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>glimpse of my progress</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function() {
+            $("a").css("margin-left", "90px");
+            $("li").css("margin-top", "25px");
+            $("li").css("margin-bottom", "25px");
+            $("p").addClass("animated bounce");
+            $("#new").addClass("hinge");
+            $("#lets").css("display", "inline-block");
+            });
+        </script>
+        <section>
+            <h1 id="me">Welcome to Sikhangele's Webpage</h1>
+            <h3 id="me-me">We Are All In a Race We Didn't Sign Up For</h3>
+            <h4 id="me-more">But A Man Got To<br> Adapt</h4>
+        </section><br><hr>
+        <nav id="nav-bar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li id="navigation"><a href="#Home">Home</a></li>
+                <li id="navigation"><a href="#Products">Products</a></li>
+                <li id="navigation"><a href="#Membershp">Membership</a></li>
+                <li id="navigation"><a href="#About">About</a></li>
+                <li id="navigation"><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
-    </div>
-    <div class="content">
-        <h1 class="heading">"I never dreamed about success. I worked for it"</h1>
-        <p class="describe">-Estee Lauder</p>
-    </div>
-    <div class="more">
-        <p class="description">There's one thing that seperates success from failure, <strong>Fear</strong>.<br>
-            While the successful man was sweating up all night working his butt off taking chances everytime opportines rose
-            the failure was fearing rejection scared of how people will think of him.<br>
-            It's just a 4 words name but having an impact bigger than Superbowl's final match.<br>
-            Man can even forget why he started his journey because he's scared, scared of people who busy minding
-            their businesses. Fear plants illusions and doubts into man's head.<br>
-            Making everything seem too big to be achieved or seem like it's for certain people.
-        </p>
-    </div>
-    <div class="container">
-        <h1 class="dining">Can we ever overcome it?</h1>
-    </div>
-</body>
+        <div id="content">
+            <h4 id="some">We all come from nothing, yes from <strong>Nothing</strong></h4>
+            <p class="describe">So it's up to us to create something from the nothing we already have.</p>
+            <p class="say">But the bigger question now is How can we create something from nothing?</p>
+            <p class="sayy">Which we have unknowingly done already by removing the "no" and add "some".</p>
+            <p class="sayyy">
+                Sometimes we fail to see that some problems are already halfway solved for us we just lack the execution phase.<br>
+                In this webpage we will break down some tips on how to handle life problems.<br>
+                But first you have to sign in so you can be included in the membership prizes.
+            </p>
+        </div>
+            <h3 id="sign">Sign in below</h3>
+            <div id="hard">
+                <p class="root">Write your username</p>
+                <div id="textbox">
+                <input type="text" method="post" placeholder="e.g Sikhangele" minlength="5" id="textbox" required>
+                <p class="rooot">Write your email</p>
+                <input type="email" method="post" placeholder="e.g sikhangele9@gmai.com" minlength="5" id="textbox" required>
+                <p class="roooot">Write your new password</p>
+                <input type="text" method="post" placeholder="password of your choice" minlength="8" id="textbox" required>
+                <p class="may">Confirm your new password</p>
+                <input type="text" method="post" placeholder="confirm your password" minlength="8" id="textbox" required>
+                </div>
+                <button class="submit">Submit</button>
+            </div><br><hr>
+        <div id="new-content">
+            <h1 class="products">Our Products</h1>
+                <p class="desc">Products are available below some will be made available in the following 3 months.<br>
+                The products are grouped into categories.<br>
+                You only need to select the desired category.
+                </p>
+                </div>
+            <div id="lets">
+                <div id="pro1">
+                    <h1 class="pro1-heading">Life Lessons</h1>
+                        <p1 class="desci">
+                            You Can't Always Get What You Want.<br>
+                            Sometimes you <em>Hope</em> to achieve certain things<br>
+                            but life turns out the least you expected.<br>
+                            Now te best way to avoid depression and anxiety from<br>
+                            this is accepting within yourself that we don't plan<br>
+                            things we hope that they happen according to our<br>
+                            desires but there is one person who decide if things<br>
+                            do really happen, <strong>God</strong>.<br>
+                            Things happen in God's way, you just need as a <br>
+                            person to have more than 1 or 2 ideas/plans.<br>
+                            Yes it is possible for both your plans to fail<br>
+                            but the third one would only fail if you don't put<br>
+                            enough effort.
+                        </p1>
+                </div>
+                <div class="pro2-heading">
+                    <h1 class="now">Life Lessons</h1>
+                    <p1 class="desci2">
+                        Pace Yourself.<br>
+                        Competition is another slow poison that people must<br>
+                        try to avoid.
+                        We often compete with people who are even too busy<br>
+                        to be competing against us.<br>
+                        As a person set your own pace(not influenced by someones<br>
+                        progress) so you can make sure you execute all of your<br>
+                        plan very well with no rush. Everything that's<br>
+                        meant for you will always come to you rushing<br>
+                        things isn't gonna help you with anything.
+                    </p1>
+                </div>
+           </div><hr>
+    </body>
 </html>

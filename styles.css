@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(46, 78, 110);
+}
+
+#me {
+    margin-top: 25px;
+    margin-left: 35px;
+    display: block;
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChange {
+    50%{
+        color:rgb(236, 202, 9);
+    }
+}
+#me-me {
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-top: 0;
+    display: block;
+    color: rgb(236, 202, 9);
+    animation-name: swift;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes swift {
+    50%{
+        color: orangered;
+    }
+}
+#me-more {
+    margin-top: 0;
+    margin-left: 35px;
+    display: block;
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+ul li {
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 55px;
+    animation-name: slide;
+    animation-duration: 2s;
+}
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: orangered;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color:  rgb(236, 202, 9);
+}
+@keyframes slide {
+    from{
+        transform: translateX(-150%);
+    }
+
+}
+li a:hover {
+    opacity: 60%;
+    color: orangered;
+}
+hr {
+    border: 3px solid orangered;
+}
+#some {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.describe {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    margin-top: 30px;
+}
+.say, .sayy, .sayyy {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+#sign {
+    margin-top: 15px;
+    color: orangered;
+    text-align: center;
+    animation-name: mzwa;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes mzwa {
+    20%{
+        color:rgb(149, 236, 9);
+    }
+    40%{
+        color:rgb(9, 236, 168);
+    }
+}
+#hard {
+    border: 2px solid orangered;
+    width: 20%;
+    height: 80%;
+    margin-left: 39%;
+    border-radius: 9px;
+}
+.root, .rooot, .roooot, .may{
+    color: white;
+    text-align: center;
+}
+#textbox {
+    vertical-align: middle;
+    margin-left: 26px;
+    margin-bottom: 8px;
+}
+.rooot, .roooot, .may {
+    color: white;
+    margin-bottom: 8px;
+}
+.submit {
+    align-items: center;
+    margin-left: 40%;
+    color: orangered;
+    height:20%;
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-bottom: 8px;
+    border-radius: 7px;
+}
+@keyframes slideUp {
+    30%{
+        color: orangered;
+        transform: scale(1.6,1.6);
+    }
+}
+.submit:hover {
+    background-color: brown;
+    color: white;
+}
+.products {
+    color: rgb(236, 202, 9);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    animation-name: moree;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes moree {
+    20%{
+        color:rgb(149, 236, 9);
+    }
+    40%{
+        color:rgb(9, 236, 168);
+    }
+}
+#new-content {
+    display: inline block;
+}
+.desc {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#pro1 {
+    display: block;
+    background-color: rgb(87, 189, 158);
+    border: 2px solid orangered;
+    border-radius: 9px;
+    opacity: 70%;
+}
+#pro1:hover {
+    animation-name: rotateUp;
+    animation-duration: 2s;
+}
+@keyframes rotateUp {
+    from{
+        transform: rotateY(360deg);
+    }
+}
+.pro1-heading {
+      color: white;
+      font-family: Verdana;
+      margin-top: 2px;
+      margin-bottom: 8px;
+      text-align: center;
+      text-decoration: underline;
+}
+.desci{
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+#lets {
+    display: block;
+    align-items: center;
+    padding-left: 32.5%;
+}
+.pro2-heading {
+    display: block;
+    background-color: rgb(87, 189, 158);
+    border: 2px solid orangered;
+    border-radius: 9px;
+    opacity: 70%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.now {
+    color: white;
+    font-family: Verdana;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-decoration: underline; 
+}
+.desci2 {
+    color: white;
+    font-family: Verdana;
+    margin-left: 36%;
+}
+.pro2-heading:hover {
+    animation-name: rotateDown;
+    animation-duration: 2s;
+}
+@keyframes rotateDown {
+    from{
+        transform: rotateY(360deg);
+    }
+}
